@@ -6,7 +6,7 @@
 float wallis_pi(int);
 
 float wallis_pi(int n)
-  {    float pi_value=1;
+  {    float pi_value=1.0;
    for(int j=1;j<=n;j++)
    {   float a=4*j*j;
     float b=(float)a/(a-1);
