@@ -34,16 +34,5 @@ int main(void) {
     }
   }
   
-  float wallis_pi(int n)
-  {    float pi_value=1.0;
-   for(int j=1;j<=n;j++)
-   {   float a=4*j*j;
-    float b=(float)a/(a-1);
-     pi_value=pi_value*b; 
-   }
-   pi_value=2*pi_value;
-   return pi_value;
-  }
-    
 }
 
